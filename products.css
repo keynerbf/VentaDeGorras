@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    background-image: url("Imagenes PNG/COMB_Logos.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(40%);
+    background-attachment: fixed;
+    margin: 0px 0px 0px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    display: block;
+}
+
+.sidebar {
+    background-color: black;
+    width: 220px;
+    height: 100%;
+    position: fixed;
+}
+.sidebar nav{
+    text-align: left;
+}
+.sidebar nav ul{
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.sidebar nav ul li{
+    display: list-item;
+    font-size: 20px;
+}
+.sidebar nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.sidebar nav ul li a:hover{
+    border-radius: 300px;
+    background-color: goldenrod;
+    color: black;
+    border-style: double;
+    transition: 0.25s ease-in-out;
+}
+
+.content {
+    flex: 100;
+    padding: 10px;
+}
+
+.table{
+    background-color: rgba(85, 80, 80, 0.71);
+    opacity: 95%;
+    width: 710px;
+    padding: 2px 10px 10px;
+    border-radius: 20px;
+    border-top-style: groove;
+    border-bottom-style: groove ;   
+}
+tr td a{
+    text-decoration: none;
+    color: red;
+}
