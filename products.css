@@ -49,7 +49,7 @@ body {
     padding: 10px;
 }
 
-.table{
+.content .table{
     background-color: rgba(85, 80, 80, 0.71);
     opacity: 95%;
     width: 710px;
