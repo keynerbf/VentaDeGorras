@@ -53,13 +53,13 @@ body {
     margin-top: 20px;
     margin-bottom: 100px;
     height: 310px;
-    width: 940px;
+    width: fit-content;
     background-color: rgba(82, 86, 89, 0.478);
 }
 .content .table{
     background-color: rgba(85, 80, 80, 0.71);
     opacity: 95%;
-    width: 650px;
+    width: fit-content;
     border-radius: 20px;
     border-top-style: groove;
     border-bottom-style: groove ;   
