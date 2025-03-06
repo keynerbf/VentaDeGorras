@@ -56,11 +56,3 @@ body {
     width: fit-content;
     background-color: rgba(82, 86, 89, 0.478);
 }
-.content .table{
-    background-color: rgba(85, 80, 80, 0.71);
-    opacity: 95%;
-    width: fit-content;
-    border-radius: 20px;
-    border-top-style: groove;
-    border-bottom-style: groove ;   
-}
